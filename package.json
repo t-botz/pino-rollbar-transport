@@ -4,7 +4,7 @@
   "description": "A pino transport for rollbar",
   "main": "index.js",
   "scripts": {
-    "test": "tap",
+    "test": "tap --no-check-coverage",
     "lint": "standard",
     "fix": "standard --fix",
     "validate": "npm run lint && npm run test"
