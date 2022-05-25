@@ -1,0 +1,37 @@
+{
+  "name": "@t-botz/pino-rollbar-transport",
+  "version": "0.0.1",
+  "description": "A pino transport for rollbar",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap",
+    "lint": "standard",
+    "fix": "standard --fix",
+    "validate": "npm run lint && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t-botz/pino-rollbar-transport.git"
+  },
+  "keywords": [
+    "pino",
+    "transport",
+    "rollbar"
+  ],
+  "author": "Tibo Delor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/t-botz/pino-rollbar-transport/issues"
+  },
+  "homepage": "https://github.com/t-botz/pino-rollbar-transport#readme",
+  "devDependencies": {
+    "pino": "7.11.0",
+    "sinon": "14.0.0",
+    "standard": "17.0.0",
+    "tap": "16.2.0"
+  },
+  "dependencies": {
+    "pino-abstract-transport": "0.5.0",
+    "rollbar": "2.25.0"
+  }
+}

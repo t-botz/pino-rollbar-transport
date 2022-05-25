@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Test",
+            "request": "launch",
+            "runtimeArgs": [
+                "tap",
+                "--no-timeout",
+            ],
+            "runtimeExecutable": "npx",
+            "outputCapture": "std",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        }
+    ]
+}
